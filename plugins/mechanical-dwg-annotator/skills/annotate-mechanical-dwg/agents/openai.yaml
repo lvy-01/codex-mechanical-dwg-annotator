@@ -1,0 +1,7 @@
+interface:
+  display_name: "机械 DWG 自动标注"
+  short_description: "依据机械制图规范补全三视图 DWG 图框、尺寸与技术标注"
+  default_prompt: "Use $annotate-mechanical-dwg to complete and annotate this mechanical three-view DWG drawing."
+
+policy:
+  allow_implicit_invocation: true

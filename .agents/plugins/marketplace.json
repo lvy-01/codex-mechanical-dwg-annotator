@@ -1,0 +1,20 @@
+{
+  "name": "mechanical-cad-tools",
+  "interface": {
+    "displayName": "Mechanical CAD Tools"
+  },
+  "plugins": [
+    {
+      "name": "mechanical-dwg-annotator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mechanical-dwg-annotator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
